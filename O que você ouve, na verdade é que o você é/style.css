@@ -1,0 +1,278 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    background: url(https://img.freepik.com/vetores-gratis/fundo-de-musica_53876-90526.jpg?w=996&t=st=1663133899~exp=1663134499~hmac=31015d3b242b1cc2aa76f8a45703a886d9fcd0b68c4f66e8393e93fb32cc3757);
+}
+
+/* topo */
+
+.topo{
+    display: flex;
+    width: 100vw;
+    height: 100px;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 0 0 30px 30px;
+}
+
+.topo h1{
+    margin: 30px 0px 0px 7%;
+    color: #fff9d8;
+    text-decoration: none;
+}
+
+h1 a{
+    color: #FFD700;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 1px;
+    transition: 200ms linear;
+}
+
+h1 a:hover{
+    border: solid 1px #ffed88;
+    background: #4d4200;
+    border-radius: 15px;
+    color: #fff09a;
+}
+
+h2{
+    width: 150px;
+    height: 35px;
+    margin: 30px 0px 0px 32%;
+    color: #eeca00;
+    font-size: 30px;
+    transition: 100ms linear;
+    cursor: pointer;
+}
+
+h2:hover{
+    transform: scale(1.08);
+}
+
+/* custom musicas */
+
+.musicas{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1050px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-left: 16%;
+}
+
+.musicas div{
+    margin: 50px;
+}
+
+.musicas div:hover{
+    transform: scale(1.1);
+}
+
+img{
+    opacity: 100%;
+    border-radius: 10px 10px 5px 5px;
+}
+
+
+/* musica1 */
+
+.musica1{
+    background: transparent;
+    width: 250px;
+    height: 220px;
+    border-radius: 10px;
+    transition: 200ms linear;
+    color: transparent;
+}
+
+.musica1 p{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.musica1:hover{
+    color: black;
+    height: 270px;
+    background-color: rgb(218, 0, 0);
+    box-shadow: 5px 5px rgb(121, 0, 0);
+
+}
+
+/* musica2 */
+
+.musica2{
+    background: white;
+    color: transparent;
+    width: 250px;
+    height: 220px;
+    border-radius: 10px;
+    transition: 200ms linear;
+}
+
+.musica2 p{
+    text-align: center;
+    margin-top: 5px;
+}
+
+.musica2:hover{
+    color: black;
+    height: 270px;
+    background-color: rgb(227, 227, 227);
+    box-shadow: 5px 5px rgb(83, 83, 83);
+}
+
+/* musica3 */
+
+.musica3{
+    background: white;
+    color: transparent;
+    width: 250px;
+    height: 220px;
+    border-radius: 10px;
+    transition: 200ms linear;
+}
+
+.musica3 p{
+    text-align: center;
+    margin-top: 5px;
+}
+
+.musica3:hover{
+    color: black;
+    height: 270px;
+    background-color: #7265e9;
+    box-shadow: 5px 5px rgb(70, 65, 209);
+}
+
+/* musica4 */
+
+.musica4{
+    background: white;
+    color: transparent;
+    width: 250px;
+    height: 220px;
+    border-radius: 10px;
+    transition: 200ms linear;
+}
+
+.musica4 p{
+    text-align: center;
+    margin-top: 5px;
+}
+
+.musica4:hover{
+    color: black;
+    height: 270px;
+    background-color: rgb(2, 123, 14);
+    box-shadow: 5px 5px rgb(6, 85, 0);
+}
+
+/* musica5 */
+
+.musica5{
+    background: white;
+    color: transparent;
+    width: 250px;
+    height: 220px;
+    border-radius: 10px;
+    transition: 200ms linear;
+}
+
+.musica5 p{
+    text-align: center;
+    margin-top: 5px;
+}
+
+.musica5:hover{
+    color: black;
+    height: 270px;
+    background-color: rgb(155, 69, 38);
+    box-shadow: 5px 5px rgb(85, 31, 0);
+}
+
+/* musica6 */
+
+.musica6{
+    background: white;
+    color: transparent;
+    width: 250px;
+    height: 220px;
+    border-radius: 10px;
+    transition: 200ms linear;
+}
+
+.musica6 p{
+    text-align: center;
+    margin-top: 5px;
+}
+
+.musica6:hover{
+    color: black;
+    height: 270px;
+    background-color: rgb(137, 137, 137);
+    box-shadow: 5px 5px rgb(83, 83, 83);
+}
+
+/* Página musica1 */
+
+.musica1spotify{
+
+    text-align: center;
+    margin-top: 2%;
+}
+.musica1spotify p{
+    font-size: 30px;
+    color: white;
+    margin-bottom: 2%;
+}
+
+.musica1letra h3{
+    font-size: 30px;
+    margin-bottom: 5%;
+}
+
+.musica1letra{
+    text-align: center;
+    width: 40%;
+    background: rgb(0, 0, 0);
+    margin-left: 30%;
+    margin-top: 5%;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    border-radius: 5%;
+}
+
+/* Página música2 */
+
+.musica2spotify{
+    text-align: center;
+    margin-top: 2%;
+}
+.musica2spotify p{
+    font-size: 30px;
+    color: white;
+    margin-bottom: 2%;
+}
+
+.musica2letra h4{
+    font-size: 30px;
+    margin-bottom: 5%;
+}
+
+.musica2letra{
+    text-align: center;
+    width: 40%;
+    background: rgb(0, 0, 0);
+    margin-left: 30%;
+    margin-top: 5%;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    border-radius: 5%;
+}
+
+
